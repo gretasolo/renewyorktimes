@@ -8,9 +8,7 @@
   display: flex;
   flex-direction: column;
   font-family: Georgia, 'Georgia', Times, serif;
-
 }
-
 .Content {
   display: flex;
   flex-direction: column;
@@ -18,43 +16,76 @@
 }
 hr {
   width: 1800px;
-  color: green;
+  color: black;
   }
-
-#one {
-  flex: 50%;
-  height: 100px;
-  font-size: 2cm;
-
-  }
-  
-  #twodate {
-  color: gray;
-  font-size: 30px;
-  flex: 50%;
-  }
-  #twoshift {
-    color: black;
-    font-size: 30px;
+  #one {
     flex: 50%;
+    height: 100px;
+    font-size: 2cm;
     }
 
-  #threedate {
-  color:gray;
-  font-size: 30px;
-  flex: 50%;}
+  .firstImage {
 
-  #threecontent {
+  }
+
+  .twodate {
+  color: gray;
+  font-size: 20px;
+  flex: 50%;
+  }
+  .shifty {
     color: black;
-    font-size: 30px;
+    font-size: 15px;
+    flex: 50%;
+    }
+    .title {
+      color: black;
+      font-size: 40px;
+    }
+  .conty {
+      color:black ;
+      font-size: 25px;
+    }
+  .authy{
+  color:gray;
+  font-size: 20px;
+}    
+
+    .threedate {
+    color:gray;
+    font-size: 20px;
     flex: 50%;}
 
-  #fourdate {
-    color: gray;
-    font-size: 30px;
+    .titlethree {
+    color: black;
+    font-size: 40px;
+  }
+    .contythree {
+    color: black;
+    font-size: 25px;
     flex: 50%;}
 
-    #fourcontent {
-      color: black; 
-      font-size: 30px;
+    .authythree {
+      color: gray;
+      font-size: 20px;
       flex: 50%;}
+
+    .fourdate {
+    color: gray;
+    font-size: 20px;
+    flex: 50%;}
+
+    .titlefour {
+      color: black;
+      font-size: 40px;
+    }
+
+    .contyfour {
+      color: black; 
+      font-size: 25px;
+      flex: 50%;}
+
+    .authyfour {
+        color:gray ;
+        font-size: 20px;
+        flex: 50%;}
