@@ -1,22 +1,60 @@
-.App {
+.New {
   text-align: center;
+  font-family: Georgia, 'Georgia', Times, serif;
+  display: flex;
+  justify-content: center;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Dates {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: Georgia, 'Georgia', Times, serif;
+
 }
 
-.App-link {
-  color: #09d3ac;
+.Content {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, 'Georgia', Times, serif;
 }
+hr {
+  width: 1800px;
+  color: green;
+  }
+
+#one {
+  flex: 50%;
+  height: 100px;
+  font-size: 2cm;
+
+  }
+  
+  #twodate {
+  color: gray;
+  font-size: 30px;
+  flex: 50%;
+  }
+  #twoshift {
+    color: black;
+    font-size: 30px;
+    flex: 50%;
+    }
+
+  #threedate {
+  color:gray;
+  font-size: 30px;
+  flex: 50%;}
+
+  #threecontent {
+    color: black;
+    font-size: 30px;
+    flex: 50%;}
+
+  #fourdate {
+    color: gray;
+    font-size: 30px;
+    flex: 50%;}
+
+    #fourcontent {
+      color: black; 
+      font-size: 30px;
+      flex: 50%;}
