@@ -1,37 +1,40 @@
+.flex-container{flex-flow: row wrap;
+justify-content: space-around;
+}
 .New {
   text-align: center;
   font-family: Georgia, 'Georgia', Times, serif;
   display: flex;
   justify-content: center;
+  
 }
-.Dates {
-  display: flex;
-  flex-direction: column;
-  font-family: Georgia, 'Georgia', Times, serif;
-}
+
 .Content {
   display: flex;
   flex-direction: column;
   font-family: Georgia, 'Georgia', Times, serif;
+  align-items: flex-start;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 hr {
-  width: 1800px;
+  width: 1400px;
   color: black;
+  margin-left: 25px;
+  margin-right:25px;
+
   }
   #one {
     flex: 50%;
-    height: 100px;
+    height: 50px;
     font-size: 2cm;
     }
-
-  .firstImage {
-
-  }
 
   .twodate {
   color: gray;
   font-size: 20px;
   flex: 50%;
+  margin: auto;
   }
   .shifty {
     color: black;
