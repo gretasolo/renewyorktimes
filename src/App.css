@@ -8,10 +8,22 @@ justify-content: space-around;
   justify-content: center;
   
 }
-
+.kod {
+  display: flex;
+  flex-flow: row wrap;
+}
+.plane {
+  display:flex;
+}
+.man{
+  display: flex;
+  position: relative;
+  
+}
 .Content {
   display: flex;
   flex-direction: column;
+  flex-flow: row wrap;
   font-family: Georgia, 'Georgia', Times, serif;
   align-items: flex-start;
   margin-left: 50px;
@@ -28,6 +40,7 @@ hr {
     flex: 50%;
     height: 50px;
     font-size: 2cm;
+
     }
 
   .twodate {

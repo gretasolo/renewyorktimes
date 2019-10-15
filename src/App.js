@@ -15,7 +15,7 @@ function App() {
     </div>
 
     <div className="Content">
-    
+    <div className="flex-container">
     <p id="twoshift">
     <span class="twodate">Jan.30, 2018</span><br></br>
     <span class="shifty">THE SHIFT</span><br></br>
@@ -46,6 +46,7 @@ function App() {
 
     <hr></hr>
     </div>
+   </div>
    </div>
   );
 }
