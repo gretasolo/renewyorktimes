@@ -24,7 +24,7 @@ function App() {
     <span class="authy">By KEVIN ROOSE</span> </p> 
     <img class= "kod" src ={firstImage} alt="kod" width="300" height="200" />
     
-   
+    
    <hr></hr>
 
     <p id="threecontent">
