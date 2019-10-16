@@ -1,6 +1,12 @@
-.flex-container{flex-flow: row wrap;
-justify-content: space-around;
-}
+@media all and (min-width: 800px) {
+  .kod   { flex: 3 0px; }
+  .man { order: 1; } 
+  .plane    { order: 2; }
+  .conty { order: 3; }
+  .title { order: 4; } }
+
+
+
 .New {
   text-align: center;
   font-family: Georgia, 'Georgia', Times, serif;
@@ -11,6 +17,8 @@ justify-content: space-around;
 .kod {
   display: flex;
   flex-flow: row wrap;
+  align-self: left;
+
 }
 .plane {
   display:flex;
@@ -23,15 +31,18 @@ justify-content: space-around;
 .Content {
   display: flex;
   flex-direction: column;
-  flex-flow: row wrap;
+  flex-flow: row wrap; 
   font-family: Georgia, 'Georgia', Times, serif;
   align-items: flex-start;
   margin-left: 50px;
   margin-right: 50px;
+  text-align: center;
+  
+  
 }
 hr {
-  width: 1400px;
-  color: black;
+  width: 1200px;
+  color: black ;
   margin-left: 25px;
   margin-right:25px;
 
@@ -40,11 +51,10 @@ hr {
     flex: 50%;
     height: 50px;
     font-size: 2cm;
-
     }
 
   .twodate {
-  color: gray;
+  color:gray ;
   font-size: 20px;
   flex: 50%;
   margin: auto;
@@ -57,10 +67,15 @@ hr {
     .title {
       color: black;
       font-size: 40px;
+      text-align: right;
     }
   .conty {
       color:black ;
       font-size: 25px;
+      text-align: right;
+      flex-flow: row wrap;
+
+      
     }
   .authy{
   color:gray;
